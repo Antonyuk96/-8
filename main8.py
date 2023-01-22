@@ -91,9 +91,9 @@ choice_menu = user_choice()
 if choice_menu == 1:
             print_copy()
         elif choice_menu == 2:
-            print('1. Find by name')
-            print('2. Find by position')
-            print('0. Exit')
+            print('1. Найти по имени')
+            print('2. Найи по классу')
+            print('0. Выход')
             choice1 = user_choice()
             if choice1 == 1:
                 person_search()
